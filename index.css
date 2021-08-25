@@ -5,9 +5,8 @@
 	box-sizing: border-box;
 }
 
-h1, h5 {
+h1, h5, h4 {
 	font-family: 'Poppins', sans-serif;
-	
 }
 
 h1 {
@@ -17,6 +16,7 @@ h1 {
 }
 
 h2 {
+	font-size: 45px;
 	font-weight: bold;
 }
 
@@ -24,6 +24,7 @@ h5 {
 	font-weight: bold;
 	letter-spacing: 1px;
 }
+
 
 /* {
 	font-family: 'Poppins', sans-serif;
@@ -41,19 +42,21 @@ img {
 }
 
 #welcome-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	position: absolute;
-	top: 40%;
-	left: 10%;
 	z-index: 10;
-	width: 500px;
+	width: 100vw;
 	height: 100vh;
 }
 
 #socials {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
-	width: 80%;
+	justify-content: space-around;
+	width: 30%;
 }
 
 #contact #socials {
@@ -138,8 +141,8 @@ img {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background: url("images/hero-bg.jpg");
-	background-size: cover;
+	background: url("images/bg-hero.jpg") center;
+	background-size: 100%;
 }
 
 #landing:after {
